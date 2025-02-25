@@ -1,0 +1,120 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask Her Out</title>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="tenor-gif-embed" data-postid="3579742380122781163" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/dancing-trey-lewis-always-you-song-couple-dance-turning-gif-3579742380122781163">Dancing Trey Lewis GIF</a>from <a href="https://tenor.com/search/dancing-gifs">Dancing GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <h1>Ek aur baar Soch le please 😣</h1>
+    <p>Know you are all that I want this life. 
+        I'll imagine we fell in love
+        I'll nap under moonlight skies with you
+        I think I'll picture us, you with the waves
+        The ocean's colors on your face
+        I'll leave my heart with your air
+        So let me fly with you
+        Will you be forever with me? 🥺</p>
+
+    <div class="btn">
+      <a href="yes.html">Yes</a>
+      <a href="#" id="move-random">No</a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
+ -->
+
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Ask Her Out</title>
+ 
+   <link rel="stylesheet" href="./style.css" />
+   <style>
+     /* 💅 Additional styling for button behavior */
+     .btn {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+       margin-top: 20px;
+       position: relative;
+     }
+ 
+     .btn a {
+       padding: 10px 20px;
+       border-radius: 8px;
+       background-color: #ff6b81;
+       color: white;
+       text-decoration: none;
+       font-weight: bold;
+       transition: all 0.3s ease;
+       position: absolute;
+     }
+ 
+     .btn a:first-child {
+       position: static;
+     }
+   </style>
+ </head>
+ 
+ <body>
+   <div class="container">
+     <div class="tenor-gif-embed" data-postid="3579742380122781163" data-share-method="host" data-aspect-ratio="1"
+       data-width="100%">
+       <a
+         href="https://tenor.com/view/dancing-trey-lewis-always-you-song-couple-dance-turning-gif-3579742380122781163">Dancing
+         Trey Lewis GIF</a>from <a href="https://tenor.com/search/dancing-gifs">Dancing GIFs</a>
+     </div>
+     <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+ 
+     <h1>Ek aur baar Soch le please 😣</h1>
+     <p>Know you are all that I want this life.
+       I'll imagine we fell in love
+       I'll nap under moonlight skies with you
+       I think I'll picture us, you with the waves
+       The ocean's colors on your face
+       I'll leave my heart with your air
+       So let me fly with you
+       Will you be forever with me? 🥺
+     </p>
+ 
+     <div class="btn">
+       <a href="yes.html">Yes</a>
+       <a href="#" id="move-random">No</a>
+     </div>
+   </div>
+ 
+   <script>
+     // 💻 JS to move the "No" button randomly
+     const noButton = document.getElementById('move-random');
+     const container = document.querySelector('.container');
+ 
+     noButton.addEventListener('mouseover', () => {
+       const maxX = container.clientWidth - noButton.offsetWidth;
+       const maxY = container.clientHeight - noButton.offsetHeight;
+ 
+       const randomX = Math.floor(Math.random() * maxX);
+       const randomY = Math.floor(Math.random() * maxY);
+ 
+       noButton.style.left = `${randomX}px`;
+       noButton.style.top = `${randomY}px`;
+     });
+   </script>
+ </body>
+ 
+ </html>
+ 
